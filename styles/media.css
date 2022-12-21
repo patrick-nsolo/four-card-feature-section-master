@@ -1,5 +1,27 @@
-@media screen and (min-width:600px) {
-    
-    
-    
+@media screen and (min-width:1000px) {
+    .top_header{
+        width: 100vw;
+        
+    }
+    h2{font-size: 2rem;}
+    h3{font-size: 2rem;}
+    .paragraph_one{
+        width:400px;
+        font-size: 0.75rem;
+    }
+    .cards_holder{
+        display: flex;
+        padding: 30px;
+        
+    }
+   .supervisor_card {
+        margin: auto;
+        margin-right: 30px;
+
+   }
+   .calculator_card{
+        margin: auto;
+        margin-left: 30px;
+
+   }   
 }
