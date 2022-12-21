@@ -32,3 +32,20 @@ The designs were created to the following widths:
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 200, 400, 600
+
+
+
+
+
+h2{
+        font-size: 2rem;
+        width:400px;
+    }
+    h3{
+        font-size: 2rem;
+        width:400px;
+    }
+    .paragraph_one{
+        width:400px;
+        font-size: 0.8rem;
+    }

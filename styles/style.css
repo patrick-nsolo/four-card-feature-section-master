@@ -22,16 +22,6 @@ img{
     --GrayishBlue: hsl(229, 6%, 66%);
     --VeryLightGray: hsl(0, 1%, 64%);
 }
-body{
-    background-color: vr(--VeryLightGray);
-}
-main{
-    /*background-color: bisque;*/
-    max-width:300px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
 h2{
     font-size: 1.3rem;
     font-weight: 200;
@@ -64,57 +54,36 @@ p{
     background-color: white;
     border-radius: 5px;
     height: 200px;
+    width: 300px;
     margin-top: 50px;
-    /*box-shadow: 2px 2px 2px 2px #888888;*/
-}
-.supervisor_card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
-}
-.team_builder_card{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.karma_card{
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.calculator_card{
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.line_1{
+.green_line{
     height: 5px;
     background:var(--Cyan);
     border-radius: 3px 3px 0 0;
 }
-.supervisor{
-    padding: 30px;
-    line-height: 20px;
-}
-.line_2{
+.red_line{
     height: 5px;
     background:var(--Red);
     border-radius: 3px 3px 0 0;
 }
-.team_builder{
-    padding: 30px;
-    line-height: 20px;
-}
-.line_3{
+.orange_line{
     height: 5px;
     background:var(--Orange);
     border-radius: 3px 3px 0 0;
 }
-.karma{
-    padding: 30px;
-    line-height: 20px;
-}
-.line_4{
+.blue_line{
     height: 5px;
     background:var(--Blue);
     border-radius: 3px 3px 0 0;
 }
-.calculator{
+.inner_content{
     padding: 30px;
     line-height: 20px;
 }
+
